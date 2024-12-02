@@ -19,7 +19,7 @@ public class ProductDB {
             Tv myTv = new Tv();
             myTv.setCode(productCode);
             myTv.setDescription("Visual Studios");
-            myTv.setPrice(57.50);
+            myTv.setPrice(60.50);
             myTv.setManufacture("Toshiba");
             myTv.setScreenSize("55 Inch");
             myProduct = myTv;
@@ -27,7 +27,7 @@ public class ProductDB {
             Tv myTv = new Tv();
             myTv.setCode(productCode);
             myTv.setDescription("Visual Studios");
-            myTv.setPrice(57.50);
+            myTv.setPrice(77.50);
             myTv.setManufacture("LG");
             myTv.setScreenSize("66 Inch");
             myProduct = myTv;
@@ -37,7 +37,7 @@ public class ProductDB {
             Music myMusic = new Music();
             myMusic.setCode(productCode);
             myMusic.setDescription("Visual Studios");
-            myMusic.setPrice(57.50);
+            myMusic.setPrice(47.50);
             myMusic.setArtist("Pink Floyd");
             myMusic.setLabel("Columbia Group");
             myProduct = myMusic;
@@ -45,7 +45,7 @@ public class ProductDB {
             Music myMusic = new Music();
             myMusic.setCode(productCode);
             myMusic.setDescription("Build Java apps");
-            myMusic.setPrice(57.50);
+            myMusic.setPrice(43.50);
             myMusic.setArtist("LinkinPark");
             myMusic.setLabel("Warner Records");
             myProduct = myMusic;
@@ -53,7 +53,7 @@ public class ProductDB {
             Music myMusic = new Music();
             myMusic.setCode(productCode);
             myMusic.setDescription("Latest MySQL");
-            myMusic.setPrice(54.50);
+            myMusic.setPrice(39.50);
             myMusic.setArtist("Metallica");
             myMusic.setLabel("Metallica Labeler");
             myProduct = myMusic;
