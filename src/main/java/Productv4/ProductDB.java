@@ -10,7 +10,7 @@ public class ProductDB {
         if (productCode.equalsIgnoreCase("Sam")) {
             Tv myTv = new Tv();
             myTv.setCode(productCode);
-            myTv.setDescription("Visual Studios");
+            myTv.setDescription("Samsung TV 1");
             myTv.setPrice(57.50);
             myTv.setManufacture("Samsung");
             myTv.setScreenSize("43 Inch");
@@ -18,7 +18,7 @@ public class ProductDB {
         } else if (productCode.equalsIgnoreCase("Tos")) {
             Tv myTv = new Tv();
             myTv.setCode(productCode);
-            myTv.setDescription("Visual Studios");
+            myTv.setDescription("Toshiba TV 1");
             myTv.setPrice(60.50);
             myTv.setManufacture("Toshiba");
             myTv.setScreenSize("55 Inch");
@@ -26,7 +26,7 @@ public class ProductDB {
         } else if (productCode.equalsIgnoreCase("Lg")) {
             Tv myTv = new Tv();
             myTv.setCode(productCode);
-            myTv.setDescription("Visual Studios");
+            myTv.setDescription("LG TV 1");
             myTv.setPrice(77.50);
             myTv.setManufacture("LG");
             myTv.setScreenSize("66 Inch");
@@ -44,7 +44,7 @@ public class ProductDB {
         } else if (productCode.equalsIgnoreCase("PARK")) {
             Music myMusic = new Music();
             myMusic.setCode(productCode);
-            myMusic.setDescription("Build Java apps");
+            myMusic.setDescription("One More Light");
             myMusic.setPrice(43.50);
             myMusic.setArtist("LinkinPark");
             myMusic.setLabel("Warner Records");
@@ -52,7 +52,7 @@ public class ProductDB {
         } else if (productCode.equalsIgnoreCase("METAL")) {
             Music myMusic = new Music();
             myMusic.setCode(productCode);
-            myMusic.setDescription("Latest MySQL");
+            myMusic.setDescription("METALLICA ALBUM");
             myMusic.setPrice(39.50);
             myMusic.setArtist("Metallica");
             myMusic.setLabel("Metallica Labeler");
