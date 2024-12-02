@@ -19,14 +19,13 @@ public class ProductApp {
             // either a book object or a software object could be returned from the ProductDb class.
             // We need to update the code so that we can handle either type of object returned.
 
-            // Book or a Software Object? = ProductDB.getProduct(productCode);
+            Product yourProduct = ProductDB.getProduct(productCode);
 
             // display the output
-            /*
             System.out.println();
-            if (p != null) {
-                System.out.println("Description: " + p.toString());
-                System.out.println("Price:       " + p.getPriceFormatted());
+            if (yourProduct != null) {
+                System.out.println("Description: " + yourProduct.toString());
+                System.out.println("Price:       " + yourProduct.getPriceFormatted());
             } else {
                 System.out.println("No product matches this product code.");
             }
@@ -38,7 +37,7 @@ public class ProductApp {
             System.out.print("Continue? (y/n): ");
             choice = sc.nextLine();
             System.out.println();
-            */
+
         }
     }
 }
