@@ -1,4 +1,4 @@
 package Productv4;
 
-public class Tv {
+public class Tv extends Product{
 }

@@ -1,4 +1,4 @@
 package Productv4;
 
-public class Music {
+public class Music extends Product{
 }
